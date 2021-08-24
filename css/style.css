@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.label-control {
+  color: blueviolet;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  display: block;
+}
+.from-control {
+  outline: none;
+  height: calc(2em + 0.75rem + 2px);
+  padding: 0 2.5rem;
+  border-radius: 10px;
+  border: 1px solid gray;
+  width: 60%;
+}
+
+.btn-primary {
+  padding: 0.7rem;
+  color: #fff;
+  background-color: rgb(61, 53, 53);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+  display: flex;
+}

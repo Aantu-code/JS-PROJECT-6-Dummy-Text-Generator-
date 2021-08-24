@@ -1,0 +1,21 @@
+@media screen and (min-width: 850px) {
+  .container {
+    display: inherit !important;
+  }
+  #from {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn-primary {
+    margin-left: 1rem;
+    margin-top: 0 !important;
+  }
+  .label-control {
+    margin-right: 1rem;
+  }
+  .secound-coll {
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+}
